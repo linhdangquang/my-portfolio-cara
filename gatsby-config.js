@@ -7,14 +7,14 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-cara/gatsby-config.js
-    siteTitle: `Cara`,
+    siteTitle: `DQL Portfolio`,
     siteTitleAlt: `Dang Quang Linh Portfolio`,
     siteHeadline: `Dang Quang Linh Portfolio`,
-    siteUrl: `https://cara.lekoarts.de`,
-    siteDescription: `Portfolio by @lekoarts_de`,
+    siteUrl: `https://dangquanglinh-portfolio.netlify.app/`,
+    siteDescription: `Portfolio by @linhdangquang`,
     siteLanguage: `en`,
     siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    author: `@linhdangquang`,
   },
   plugins: [
     {
@@ -30,6 +30,7 @@ module.exports = {
         description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
         start_url: `/`,
         background_color: `#141821`,
+        // background_color: `#34d399`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#f6ad55`,
